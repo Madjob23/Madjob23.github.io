@@ -2,6 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background: linear-gradient(45deg, #ff5722, #8e7bbc);
+    background-size: 200% 200%;
+    transition: background-position 0.3s ease;
+}
+
+body:hover {
+    background-position: right bottom;
 }
 
 header {
@@ -35,5 +42,13 @@ section {
     padding: 20px;
     margin: 20px;
     border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: border-color 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-color: #ff5722;
 }
 
