@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -19,11 +23,6 @@ header {
     background-color: #b4c7d4;
     color: #7317c9;
     text-shadow: 0 0 2px #04020f85;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
 }
 
 nav ul li {
